@@ -1,6 +1,6 @@
 # Copyright 2020 by Erick Alexis Alvarez Sanchez, The national meteorological and hydrological service of Peru (SENAMHI).
 # All rights reserved.
-# This file is part of the REApy package,
+# This file is part of the MEANpy package,
 # and is released under the "MIT License Agreement". Please see the LICENSE
 # file that should have been included as part of this package.
 
@@ -8,13 +8,13 @@
 from setuptools import setup
 
 setup(
-    name='reapy',
+    name='meanpy',
     version='1.0.0.0',
-    description='Primera version de reapy!',
-    packages = ['reapy'],
+    description='Primera version de meanpy!',
+    packages = ['meanpy'],
     license='MIT',
     author_email='erick.alvarez.met@gmail.com',
-    download_url='https://github.com/3r1ck10/reapy/archive/v1.0.0.0.tar.gz',
+    download_url='https://github.com/3r1ck10/meanpy/archive/v1.0.0.0.tar.gz',
     install_requires=['numpy',
     'pandas','xarray','netcdf4'],
     classifiers=[
